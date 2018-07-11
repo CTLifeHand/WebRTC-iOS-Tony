@@ -29,6 +29,7 @@
 		5AA2542B1E66ABF600E1DDC1 /* WebRTCHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AA2542A1E66ABF600E1DDC1 /* WebRTCHelper.m */; };
 		5AA2542E1E6997F700E1DDC1 /* VideoChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AA2542D1E6997F700E1DDC1 /* VideoChatViewController.m */; };
 		75DCFD890142D84AD4805B39 /* libPods-WebScoketTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EE95D50D95824EB047CDF52 /* libPods-WebScoketTest.a */; };
+		AC8822E820F5D9DB00959CCA /* libWebRTC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AC8822E720F5D9DB00959CCA /* libWebRTC.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -114,6 +115,7 @@
 		AC8822E220F5B2E400959CCA /* RTCStatsDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTCStatsDelegate.h; sourceTree = "<group>"; };
 		AC8822E320F5B2E400959CCA /* RTCPeerConnectionInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTCPeerConnectionInterface.h; sourceTree = "<group>"; };
 		AC8822E420F5B2E400959CCA /* RTCOpenGLVideoRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTCOpenGLVideoRenderer.h; sourceTree = "<group>"; };
+		AC8822E720F5D9DB00959CCA /* libWebRTC.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libWebRTC.a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +135,7 @@
 				5AA252B81E66688600E1DDC1 /* VideoToolbox.framework in Frameworks */,
 				5AA252B61E66687800E1DDC1 /* CoreTelephony.framework in Frameworks */,
 				75DCFD890142D84AD4805B39 /* libPods-WebScoketTest.a in Frameworks */,
+				AC8822E820F5D9DB00959CCA /* libWebRTC.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -245,6 +248,7 @@
 		AC8822C520F5B2E400959CCA /* WebRTC */ = {
 			isa = PBXGroup;
 			children = (
+				AC8822E720F5D9DB00959CCA /* libWebRTC.a */,
 				AC8822C620F5B2E400959CCA /* include */,
 			);
 			path = WebRTC;
