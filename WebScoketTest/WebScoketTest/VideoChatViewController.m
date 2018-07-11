@@ -58,7 +58,7 @@
 //连接
 - (void)connectAction
 {
-    [[WebRTCHelper sharedInstance]connectServer:@"192.168.0.7" port:@"3000" room:@"100"];
+    [[WebRTCHelper sharedInstance]connectServer:@"192.168.3.3" port:@"3000" room:@"100"];
     
  
 }
